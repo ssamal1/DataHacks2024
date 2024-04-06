@@ -1,10 +1,14 @@
 import './App.css';
-import Dropdown from './Components/FirstDropdown'; 
+import FirstDropdown from './Components/FirstDropdown'; 
+import SecondDropdown from './Components/SecondDropdown'; 
+import ThirdDropdown from './Components/ThirdDropdown'; 
 
 function App() {
   return (
     <div className="App">
-      <Dropdown />
+      <FirstDropdown />
+      <SecondDropdown />
+      <ThirdDropdown />
       <h1>This is a test </h1>
       
 

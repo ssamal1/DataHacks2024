@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-function FirstDropdown() {
+function ThirdDropdown() {
   const options = ["Option 1", "Option 2", "Option 3"];
   
   const [selectedOption, setSelectedOption] = useState(null);
@@ -28,4 +28,4 @@ function FirstDropdown() {
   );
 }
 
-export default FirstDropdown;
+export default ThirdDropdown;
