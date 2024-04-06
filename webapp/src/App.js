@@ -6,12 +6,14 @@ import ThirdDropdown from './Components/ThirdDropdown';
 function App() {
   return (
     <div className="App">
-      <FirstDropdown />
-      <SecondDropdown />
-      <ThirdDropdown />
-      <h1>This is a test </h1>
-      
-
+      <div className="header">
+        <h1>This is a test</h1>
+      </div>
+      <div className="dropdowns">
+        <FirstDropdown />
+        <SecondDropdown />
+        <ThirdDropdown />
+      </div>
     </div>
   );
 }
