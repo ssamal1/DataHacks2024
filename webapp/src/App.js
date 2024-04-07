@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import './App.css';
+import Home from './Components/Home'
 import FirstDropdown from './Components/FirstDropdown'; 
 import SecondDropdown from './Components/SecondDropdown'; 
 import ThirdDropdown from './Components/ThirdDropdown'; 
@@ -33,9 +34,11 @@ function App() {
 
   return (
     <div className="App">
+      <Home /> {/* Render Home component */}
+
       <img src={logo} alt="Logo" className="logo" />
       <div className="header">
-        <h1>This is a test</h1>
+        
       </div>
       <div className="dropdowns">
       <FirstDropdown index={0} onResultChange={(result) => handleResultChange(result, 0)} />
