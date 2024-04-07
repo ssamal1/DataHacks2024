@@ -10,6 +10,14 @@
   position: relative;
 }
 
+.logo {
+  position: absolute;
+  top: 10px; /* Adjust as needed */
+  left: 10px; /* Adjust as needed */
+  width: 100px; /* Adjust width */
+  height: auto; /* Maintain aspect ratio */
+}
+
 .dropdowns {
   display: flex;
   flex-wrap: wrap;
